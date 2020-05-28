@@ -1,0 +1,16 @@
+{
+  "name": "cli-shared-utils",
+  "version": "1.0.0",
+  "description": "> shared utils for rist-cli packages",
+  "main": "index.js",
+  "keywords": [
+    "rist",
+    "cli",
+    "cli-shared-utils"
+  ],
+  "dependencies":{
+    "chalk": "^2.4.2"
+  },
+  "author": "rist",
+  "license": "MIT"
+}

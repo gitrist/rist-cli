@@ -1,0 +1,22 @@
+{
+  "name": "rist-cli",
+  "version": "1.0.0",
+  "description": "rist-cli",
+  "main": "index.js",
+  "bin": {
+    "rist-cli": "rist.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies":{
+    "rist-cli/cli-shared-utils": "^1.0.0"
+  },
+  "keywords": [
+    "vue",
+    "rist",
+    "cli"
+  ],
+  "author": "",
+  "license": "ISC"
+}
