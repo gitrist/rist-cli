@@ -1,4 +1,13 @@
+[
+    'exit',
+    'spinner',
+  ].forEach(m => {
+    Object.assign(exports, require(`./lib/${m}`))
+  })
+
 exports.chalk = require('chalk');
+exports.execa = require('execa');
+exports.semver = require('semver');
 
 // Object.defineProperties(exports,'installedBrowsers',{
 //     enumerable: true,
@@ -7,7 +16,7 @@ exports.chalk = require('chalk');
 //     }
 // })
 
-const exports = new Proxy(exports, {
+const installedBrowsersProps = new Proxy(exports, {
     get(obj, props) {
         if (props === 'installedBrowsers') {
             return obj.getInstalledBrowsers()

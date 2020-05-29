@@ -1,6 +1,6 @@
 {
-  "name": "cli-shared-utils",
-  "version": "1.0.0",
+  "name": "@rist/cli-shared-utils",
+  "version": "1.0.2",
   "description": "> shared utils for rist-cli packages",
   "main": "index.js",
   "keywords": [
@@ -9,7 +9,10 @@
     "cli-shared-utils"
   ],
   "dependencies":{
-    "chalk": "^2.4.2"
+    "chalk": "^2.4.2",
+    "execa": "^1.0.0",
+    "ora": "^3.4.0",
+    "semver": "^6.1.0"
   },
   "author": "rist",
   "license": "MIT"
