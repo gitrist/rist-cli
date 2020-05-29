@@ -25,5 +25,10 @@
   "license": "ISC",
   "engines": {
     "node": ">=8.9"
+  },
+  "repository": {
+    "type": "github",
+    "url": "https://github.com/gitrist/rist-cli.git",
+    "directory": "packages/@vue/cli"
   }
 }

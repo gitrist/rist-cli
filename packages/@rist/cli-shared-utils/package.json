@@ -15,5 +15,6 @@
     "semver": "^6.1.0"
   },
   "author": "rist",
-  "license": "MIT"
+  "license": "MIT",
+  "homepage": "https://github.com/gitrist/rist-cli/tree/master/packages/%40rist/cli-shared-utils"
 }
